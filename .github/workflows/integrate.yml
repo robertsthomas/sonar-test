@@ -33,7 +33,7 @@ jobs:
              -Dsonar.organization=1corp 
              -Dsonar.projectKey=sonar-test
              -Dsonar.sources=$GITHUB_WORKSPACE 
-             -Dsonar.host.url="http://localhost:9000",
+             -Dsonar.host.url="https://youthful-gates-6c0728.netlify.app/",
              -Dsonar.login=${{ secrets.SONAR_TOKEN }}
              -Dsonar.exclusions="**/*.test.tsx",
              -Dsonar.tests="./src",
