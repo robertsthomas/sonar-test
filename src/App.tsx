@@ -2,7 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const unusedVar = "";
+
 function App() {
+
+  try {
+  }
+  catch (e) {
+  }
+
   return (
     <div className="App">
       <header className="App-header">
